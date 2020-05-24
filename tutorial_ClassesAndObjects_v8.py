@@ -17,10 +17,8 @@ currentPlayer = playerList[0]
 hiddenNumber = random.randint(1,100)
 print("OK I’m thinking of a number - please take turns to try to guess it")
 print("Players in the game are:")
-print("Player 1 is: " + playerList[0].getDescription())
-print("Player 2 is: " + playerList[1].getDescription())
 for player in playerList:
-	print("Player X is: " + str(player))
+	print("Player " + str(player.number) + " is: " + player.getDescription())
 
 while True:
 	print("Player " + str(currentPlayer.number) + " turn")
