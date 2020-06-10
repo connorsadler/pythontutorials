@@ -12,6 +12,7 @@ class Player():
 playerList = []
 playerList.append(Player(1, "Connor", "Red"))
 playerList.append(Player(2, "John", "Blue"))
+playerList.append(Player(3, "Matthew", "Green"))
 
 currentPlayer = playerList[0]
 hiddenNumber = random.randint(1,100)
