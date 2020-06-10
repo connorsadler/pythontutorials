@@ -16,7 +16,7 @@ playerList.append(Player(3, "Matthew", "Green"))
 
 currentPlayer = playerList[0]
 hiddenNumber = random.randint(1,100)
-print("OK I’m thinking of a number - please take turns to try to guess it")
+print("OK I'm thinking of a number - please take turns to try to guess it")
 print("Players in the game are:")
 for player in playerList:
 	print("Player " + str(player.number) + " is: " + player.getDescription())
